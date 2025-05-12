@@ -28,6 +28,7 @@ let routers = createBrowserRouter([
     { 
       path:'',
       element:<Layout/>,
+      errorElement:<Notfound/>,
       children:[
            {index:true,element:<ProtectedRouting><Home/></ProtectedRouting>},
            {path:'product',element:<ProtectedRouting><Product/></ProtectedRouting>},
