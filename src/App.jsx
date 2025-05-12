@@ -45,7 +45,11 @@ let routers = createBrowserRouter([
            {path:'*',element:<Notfound/>},
     ],
   }
-  ])
+  ],
+  {
+    basename:'/e-ecommerce'
+  }
+)
 
  let clients = new QueryClient()
   
