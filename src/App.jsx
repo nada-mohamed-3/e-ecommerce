@@ -42,7 +42,7 @@ let routers = createBrowserRouter([
            {path:'loguot',element:<Logout/>},
            {path:'forgetpassword',element:<ForgetPassword/>},
            {path:'updatepassword',element:<UpdatePassword/>},
-           {path:'**',element:<Notfound/>},
+           {path:'*',element:<Notfound/>},
     ],
   }
   ])
